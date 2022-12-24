@@ -20,9 +20,7 @@ public class Car {
     }
 
     public void setKey(Key key) {
-        if (key != null) {
-            this.key = key;
-        }
+        this.key = key;
     }
 
     public static class Key {
